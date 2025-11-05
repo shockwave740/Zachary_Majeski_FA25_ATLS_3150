@@ -1,50 +1,130 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
-    <title>HTML Text Basics</title>
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="style.css">
+    <title>HTML Text Basics - Insects</title>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="insect_style.css">
 </head>
+
 <body>
-    
-    <h1>Basic HTML Insects</h1>
-    <p>This is the first paragraph in our page. It introduces our fascinating insects.</p>
-    <h2>The Cricket</h2>
-    <p>Our Cricket is a big fan of making music at night. When it spots a quiet evening on a web page, it will chirp melodies like a tiny orchestra, rubbing its wings as it goes.</p>
-    <h2>The Butterfly</h2>
-    <p>The graceful butterfly likes to flutter around the page, traveling delicately by way of flower links to find sweet nectar.</p>
+    <div class="container">
 
-    <hr>
+       
+        <header>
+            <h1>Basic HTML Insects</h1>
+        </header>
 
-    
-    <h1>Looking at lists</h1>
-    <p>Turn the following list of my favorite garden insects into an unordered list.</p>
-    <ul>
-        <li>Ladybug</li>
-        <li>Bee</li>
-        <li>Dragonfly</li>
-        <li>Butterfly</li>
-    </ul>
-    <p>Turn the following directions into an ordered list.</p>
-    <ol>
-        <li>First approach the flower slowly</li>
-        <li>When ready, extend your proboscis</li>
-        <li>Wait for the nectar to flow</li>
-        <li>Fly to the next bloom and repeat</li>
-    </ol>
+        
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Insects</a></li>
+                <li><a href="#">Lists</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
 
-    <hr>
+        
+        <aside id="aside1">
+            <h2>Insect Facts</h2>
+            <p>Some ants can lift more than 50 times their body weight.</p>
+            <p>Crickets produce sound by rubbing their wings together — called stridulation.</p>
+        </aside>
 
-    
-    <h1>Advanced HTML Insects</h1>
-    <dl>
-        <dt>Mantis</dt>
-        <dd>Green, angular predator with powerful front legs. Sometimes patient, but strikes lightning fast when hunting. Big fan of staying perfectly still.</dd>
-        <dt>Beetle</dt>
-        <dd>A very sturdy insect with hard wing covers; travels slowly but steadily to find food and shelter.</dd>
-        <dt>Ant</dt>
-        <dd>Its strength is bottomless compared to its size.</dd>
-    </dl>
+        
+        <main>
+            <section>
+                <p>This is the first paragraph in our page. It introduces our fascinating insects.</p>
+
+                <h2>The Cricket</h2>
+                <p>Our Cricket is a big fan of making music at night. When it spots a quiet evening on a web page, it
+                    will chirp
+                    melodies like a tiny orchestra, rubbing its wings as it goes.</p>
+
+                <h2>The Butterfly</h2>
+                <p>The graceful butterfly likes to flutter around the page, traveling delicately by way of flower links
+                    to find
+                    sweet nectar.</p>
+            </section>
+
+            <hr>
+
+            <section>
+                <h2>Looking at Lists</h2>
+                <p>Turn the following list of my favorite garden insects into an unordered list.</p>
+                <ul>
+                    <li>Ladybug</li>
+                    <li>Bee</li>
+                    <li>Dragonfly</li>
+                    <li>Butterfly</li>
+                </ul>
+
+                <p>Turn the following directions into an ordered list.</p>
+                <ol>
+                    <li>First approach the flower slowly</li>
+                    <li>When ready, extend your proboscis</li>
+                    <li>Wait for the nectar to flow</li>
+                    <li>Fly to the next bloom and repeat</li>
+                </ol>
+            </section>
+
+            <hr>
+
+            <section>
+                <h2>Definition Lists</h2>
+                <p>A definition list is a list of terms and their definitions. Below is an example of a definition list
+                    for some common insects.</p>
+                <dl>
+                    <dt>Ladybug</dt>
+                    <dd>A small, round beetle often red with black spots; considered a gardener's friend for its
+                        appetite
+                        for aphids.</dd>
+                    <dt>Bee</dt>
+                    <dd>A flying insect known for its role in pollination and producing honey; has a fuzzy body and can
+                        sting
+                        when threatened.</dd>
+                    <dt>Dragonfly</dt>
+                    <dd>A fast-flying insect with a long body and two pairs of strong, transparent wings; often found
+                        near water.</dd>
+                </dl>
+            </section>
+
+            <hr>
+
+            <section>
+                <h2>Advanced HTML Insects</h2>
+                <dl>
+                    <dt>Mantis</dt>
+                    <dd>Green, angular predator with powerful front legs. Sometimes patient, but strikes lightning fast
+                        when hunting. Big fan of staying perfectly still.</dd>
+                    <dt>Beetle</dt>
+                    <dd>A very sturdy insect with hard wing covers; travels slowly but steadily to find food and
+                        shelter.</dd>
+                    <dt>Ant</dt>
+                    <dd>Its strength is bottomless compared to its size.</dd>
+                </dl>
+            </section>
+        </main>
+
+        
+        <aside id="aside2">
+            <h2>Conservation</h2>
+            <p>Pollinators like bees and butterflies are essential for biodiversity and food production.</p>
+            <p>Habitat loss and pesticide use threaten many insect species.</p>
+        </aside>
+
+        
+    </div>
 </body>
+
 </html>
