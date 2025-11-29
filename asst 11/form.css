@@ -13,6 +13,36 @@ div#formcol1 {
 	float:left;	
 	width: 100%;
 }
+label {
+    margin-right: .3em;
+    width: 7em;
+    display: inline-block;
+    text-align: right;
+}
+#formcol1 li {
+    list-style: none;
+}
+select:focus,
+select:active,
+input:focus,
+input:active,
+input:focus + label,
+input:active + label,
+label[for]:focus,
+label[for]:active {
+    color: #FFF !important;
+    background-color: #94fa50 !important;
+}
+#formcol1 input.reqfield {
+    background: #FF9;
+}
+.requiredStar {
+    color: red;
+    font-weight: bold;
+}
+#multchoice span {
+    margin-right: 1em;
+}
 
 
 
